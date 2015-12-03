@@ -1,14 +1,5 @@
-html{
-	background-image=url("durabuilt-bg.png");
-}
-
 #mycontent {
   display: none;
-}
-
-#teacher_img{
-  float: left;
-  padding: 5px;
 }
 
 #msg{

@@ -24,7 +24,7 @@ class login_msg_lib{
 
     public function get_base() {
         global $CFG;
-        return $CFG->wwwroot.'/blocks/login_msg/';
+        return $CFG->wwwroot.'/blocks/login_message/';
     }
 
     protected function get_last_login_time() {

@@ -18,8 +18,8 @@
  * @package   block_login_info
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$plugin->version  = 20150910;
+$plugin->version  = 2015120309;
 $plugin->requires = 2014051200;
 $plugin->release = 'login message';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->component = 'block_login_msg';
+$plugin->component = 'block_login_message';

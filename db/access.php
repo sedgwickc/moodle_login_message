@@ -17,13 +17,13 @@
 /**
  * Strings for component 'block_login_info', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   block_countuser
+ * @package   block_login_message
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 $capabilities = array(
 
-    'block/login_msg:myaddinstance' => array(
+    'block/login_message:myaddinstance' => array(
         'captype' => 'read',
         'contextlevel' => CONTEXT_SYSTEM,
         'archetypes' => array(
@@ -34,7 +34,7 @@ $capabilities = array(
             'manager' => CAP_ALLOW        ),
     ),
 
-    'block/login_msg:addinstance' => array(
+    'block/login_message:addinstance' => array(
         'captype' => 'read',
         'contextlevel' => CONTEXT_BLOCK,
         'archetypes' => array(

@@ -41,10 +41,12 @@ echo $OUTPUT->header();
         <main role="main">
             <section>
                 <article id="introduction">
-                    <p>Thank you for returning so soon!</p>
+                    <p>Thank you for returning!</p>
 					<br>
 					<p>
-					<iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/uwlfi6UFSTA" frameborder="0" allowfullscreen></iframe>
+					<iframe class="youtube-video" width="560" height="315"
+						src="https://www.youtube.com/embed/GDk1YOP2f4A" 
+						frameborder="0" allowfullscreen></iframe>
 					</p>
                 </article>
             </section>

@@ -20,9 +20,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-require_once('login_msg_lib.php');
+require_once('login_message_lib.php');
 
-class block_login_msg extends block_base {
+class block_login_message extends block_base {
     public function init() {
         $this->title = 'Login Message';
     }
@@ -76,11 +76,12 @@ HTML;
         {$popupjs}
         <script type="text/javascript" src="{$baseurl}js/thickbox/thickbox.js"></script>
         <link rel="stylesheet" href="{$baseurl}js/thickbox/thickbox.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="{$baseurl}style.css" type="text/css" media="all" />
     <!-- /ThickBox 3 -->
         <div id="log_meg_small">
             <!-- link to reopen message --!>
                 <p> <a href="{$welcomepage}" target="_blank">Welcome</a> </p>
+                <p> <a href="https://www.youtube.com/watch?v=GDk1YOP2f4A"
+                	target="_blank">Why Durabuilt?</a> </p>
         </div>
 HTML;
 
